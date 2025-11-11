@@ -36,7 +36,7 @@ main {
   text-align: left;
 }
 
-.mídia {
+.midia {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -45,8 +45,8 @@ main {
   margin-top: 30px;
 }
 
-.mídia img,
-.mídia video {
+.midia img,
+.midia video {
   width: 45%;
   max-width: 500px;
   border-radius: 15px;
