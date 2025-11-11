@@ -1,86 +1,64 @@
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+CA:wght@100..400&display=swap');
 
-
-body{
- background-color:rgb(86, 102, 141);
- color: black;
- font-family: "Manrope", sans-serif;
- margin: 0px;
- padding: 0px;
- text-align: center;
+body {
+  background-color: rgb(93, 109, 145);
+  color: black;
+  font-family: "Manrope", sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
 header {
-  background-color: rgb(3, 34, 52);
+  background-color: rgba(197, 214, 224);
   padding: 30px;
   box-shadow: 0 0 20px rgb(2, 2, 59);
 }
 
-h1{
-  color: aliceblue;
- font-family: "Manrope", sans-serif;
- font-size: 70px;
- margin: 0;
+h1 {
+  font-size: 70px;
+  margin: 0;
 }
 
-main{
+main {
   margin: 30px auto;
   width: 90%;
   max-width: 1000px;
 }
 
-section{
-  color: rgb(209, 224, 233);
+section {
   background-color: rgb(209, 224, 233);
- padding: 40px;
- margin: 30px auto;
- font-size: 20px;
- text-align: left;
- width: 80%;
- border-radius: 20px;
- box-shadow: 0 0 50px rgb(2, 2, 59);
-
+  padding: 40px;
+  margin: 30px auto;
+  font-size: 20px;
+  width: 80%;
+  border-radius: 20px;
+  box-shadow: 0 0 50px rgb(2, 2, 59);
 }
 
-
-img,
-iframe {
-border-radius: 10px;
-display: flex;
-gap: 20px;
-justify-content: center;
-align-items: center;
-margin: 20px auto;
-box-shadow: 0 0 50px rgb(80, 80, 137);
-
-}
-
-.texto{
-  background-color: rgb(0, 0, 0);
-  border-radius: 15px;
-  padding: 30px;
-  box-shadow: 0 0 40px rgb(2, 2, 59);
-  text-align: left;
-}
- 
-.mídia {
+.midia {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 30px;
   flex-wrap: wrap;
-  margin-top: 30px;
 }
 
-.mídia img,
-.mídia video {
+.midia img,
+.midia iframe {
   width: 45%;
   max-width: 500px;
   border-radius: 15px;
   box-shadow: 0 0 40px rgb(80, 80, 137);
-  display: flex;
-  align-items: center;
-  gap: 40px;
+}
+
+.texto {
+  background-color: rgb(40, 49, 76);
+  border-radius: 15px;
+  padding: 30px;
+  color: white;
+  text-align: left;
+  box-shadow: 0 0 40px rgb(2, 2, 59);
 }
 
 #toggleBtn {
