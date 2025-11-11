@@ -9,7 +9,7 @@ toggleBtn.addEventListener("click", () => {
   if (mostrandoVideo) {
     // Mostra só a imagem
     mediaSection.innerHTML = `
-      <img id="imagemCapo" src="Beach Capoeira.jpeg" alt="Imagem de Capoeira">
+      <img id="imagemCapo" src="Os golpes e esquivas eram praticados durante uma….jpeg" alt="Imagem de Capoeira">
     `;
     toggleBtn.textContent = "Mostrar vídeo";
   } else {
