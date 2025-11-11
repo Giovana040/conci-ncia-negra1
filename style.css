@@ -1,42 +1,68 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CA:wght@100..400&display=swap');
 
-body {
-  background-color: rgb(202, 208, 223);
-  color: black;
-  font-family: "Manrope", sans-serif;
-  margin: 0;
-  padding: 0;
-  text-align: center;
+
+body{
+ background-color:rgb(93, 109, 145);
+ color: black;
+ font-family: "Manrope", sans-serif;
+ margin: 0px;
+ padding: 0px;
+ text-align: center;
 }
 
 header {
-  color: azure;
-  background-color: rgb(92, 91, 119);
+  background-color: rgba(197,214,224);
   padding: 30px;
   box-shadow: 0 0 20px rgb(2, 2, 59);
 }
 
-h1 {
-  font-size: 60px;
-  margin: 0;
+h1{
+ font-family: "Manrope", sans-serif;
+ font-size: 70px;
+ margin: 0;
 }
 
-main {
+main{
   margin: 30px auto;
   width: 90%;
   max-width: 1000px;
 }
 
-.texto {
-  margin-top: 40px;
-  background-color: rgba(197, 214, 224, 0.9);
+section{
+  color: rgb(209, 224, 233);
+  background-color: rgb(209, 224, 233);
+ padding: 40px;
+ margin: 30px auto;
+ font-size: 20px;
+ text-align: left;
+ width: 80%;
+ border-radius: 20px;
+ box-shadow: 0 0 50px rgb(2, 2, 59);
+
+}
+
+
+img,
+iframe {
+border-radius: 10px;
+display: flex;
+gap: 20px;
+justify-content: center;
+align-items: center;
+margin: 20px auto;
+box-shadow: 0 0 50px rgb(80, 80, 137);
+
+}
+
+.texto{
+  background-color: rgb(0, 2, 2);
   border-radius: 15px;
   padding: 30px;
   box-shadow: 0 0 40px rgb(2, 2, 59);
   text-align: left;
 }
-
-.midia {
+ 
+.mídia {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -45,12 +71,15 @@ main {
   margin-top: 30px;
 }
 
-.midia img,
-.midia video {
+.mídia img,
+.mídia video {
   width: 45%;
   max-width: 500px;
   border-radius: 15px;
-  box-shadow: 0 0 40px rgb(190, 190, 203);
+  box-shadow: 0 0 40px rgb(80, 80, 137);
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 
 #toggleBtn {
@@ -72,7 +101,7 @@ main {
 
 footer {
   margin-top: 50px;
-  background-color: rgb(92, 91, 119);
+  background-color: rgba(197, 214, 224);
   padding: 20px;
   font-size: 16px;
   box-shadow: 0 -2px 20px rgba(0, 0, 0, 0.3);
