@@ -27,6 +27,7 @@ main {
 }
 
 .texto {
+  margin-top: 40px;
   background-color: rgba(197, 214, 224, 0.9);
   border-radius: 15px;
   padding: 30px;
