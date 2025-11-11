@@ -47,11 +47,6 @@ main {
 
 .mídia img,
 .mídia video {
-  
-   display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
   width: 45%;
   max-width: 500px;
   border-radius: 15px;
